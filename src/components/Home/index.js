@@ -2,20 +2,18 @@ import React, { Component } from 'react';
 import './styles.css';
 import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 
-import pic4 from '../../img/SamDavid6.png';
+
+import CarouselFrame from '../CarouselFrame';
+
 
 
 class Home extends Component {
   render() {
 		return(
-      <Container id="contentContainer">
+      <Container className="Home">
 				<Row>
-					<Col id="bgimage">
-						<div className="bgtext">
-							<h1>Nashville Classical Ballet Academy</h1>
-							<h2>Aaron Orza, Director</h2>
-						</div>
-						<img src={pic4} alt="background" />
+					<Col>
+						<CarouselFrame/>
 					</Col>
 				</Row>
         <Row>

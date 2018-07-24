@@ -8,15 +8,50 @@ import {
 } from 'reactstrap';
 import './styles.css';
 
-import pic1 from '../../img/weebly4.png';
+import pic1 from '../../img/SamDavid6.png';
+import pic2 from '../../img/DawnAndCo.png';
+import pic3 from '../../img/DavidCathyWedding.png';
+import pic4 from '../../img/ErikFishDC2DC3.jpg';
+import pic5 from '../../img/ErikDC1DC2.png';
+import pic6 from '../../img/ErikScottJames.png';
 
 const items = [
   {
     src: pic1,
-    altText: 'Aaron Orza, Director',
-    caption: 'Nashville Classical Ballet Academy',
+    altText: '',
+    caption: 'Welcome to Cuthell.com',
 		className: 'specialClass'
-  }
+  },
+	{
+    src: pic2,
+    altText: '',
+    caption: 'Welcome to Cuthell.com',
+		className: 'specialClass'
+  },
+	{
+    src: pic3,
+    altText: '',
+    caption: 'Welcome to Cuthell.com',
+		className: 'specialClass'
+  },
+	{
+    src: pic4,
+    altText: '',
+    caption: 'Welcome to Cuthell.com',
+		className: 'specialClass'
+  },
+	{
+    src: pic5,
+    altText: '',
+    caption: 'Welcome to Cuthell.com',
+		className: 'specialClass'
+  },
+	{
+    src: pic6,
+    altText: '',
+    caption: 'Welcome to Cuthell.com',
+		className: 'specialClass'
+  },
 ];
 
 class CarouselFrame extends Component {

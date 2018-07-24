@@ -29,28 +29,19 @@ class NavBar extends Component {
 			<div className="NavBar sticky-top">
 				<Navbar expand="md" className={this.props.className}>
 	        <NavbarBrand href={"#"}>
-	          <img id="NCBALogo" src={Logo} alt='NCBA logo'></img>
+						<h1>Cuthell.com</h1>
 	        </NavbarBrand>
 	        <NavbarToggler onClick={this.toggle}/>
 	        <Collapse isOpen={this.state.isOpen} navbar>
 	          <Nav className="ml-auto" navbar>
 							<NavItem>
-								<NavLink href={"#/About"} onClick={this.toggle2} className="menuItem">About</NavLink>
+								<NavLink href={"#/David"} onClick={this.toggle2} className="menuItem">David</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Programs"} onClick={this.toggle2} className="menuItem">Programs</NavLink>
+								<NavLink href={"#/Samuel"} onClick={this.toggle2} className="menuItem">Samuel</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Gallery"} onClick={this.toggle2} className="menuItem">Gallery</NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href={"#/Schedule"} onClick={this.toggle2} className="menuItem">Schedule</NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href={"#/Reviews"} onClick={this.toggle2} className="menuItem">Reviews</NavLink>
-							</NavItem>
-							<NavItem>
-								<NavLink href={"#/Contact"} onClick={this.toggle2} className="menuItem">Contact</NavLink>
+								<NavLink href={"#/Erik"} onClick={this.toggle2} className="menuItem">Erik</NavLink>
 							</NavItem>
 	          </Nav>
 	        </Collapse>
