@@ -1,0 +1,16 @@
+.carouselBackground {
+	height: 80vh;
+	background-color: black;
+}
+#carouselImage {
+	height: 80vh;
+}
+
+.specialClass {
+	color: white;
+	top: 5%;
+	bottom: 10%;
+	left: 15%;
+	right: 50%;
+	text-align: left;
+}

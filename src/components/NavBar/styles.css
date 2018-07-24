@@ -1,0 +1,44 @@
+.NavBar {
+
+}
+
+
+/* Bootstrap overrides */
+.bg-dark {
+	background-color: black!important;
+	height: 100%;
+}
+
+.nav-link {
+	color: white!important;
+	border-bottom: 1px black solid;
+}
+
+.nav-link:hover {
+	border-bottom: 1px white solid;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  min-height: 40px;
+  min-width: 40px;
+}
+#NCBALogo {
+  max-width:80px;
+  max-height:80px;
+  width: auto;
+  height: auto;
+  margin-left: 5vw;
+}
+.menuItem{
+  font-size: 2vh;
+}
+/*
+@media (max-width: 991px) {
+  .desktop-only {
+      display:none !important;
+  }
+} */

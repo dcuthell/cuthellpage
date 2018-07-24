@@ -1,0 +1,40 @@
+.Footer {
+  padding: 20px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  position: relative;
+}
+
+.Footer a{
+	color: white;
+}
+
+.addressBox {
+	line-height: 16px;
+	padding: 0px;
+}
+
+#footerLogo {
+	height: 80px;
+	width: 80px;
+}
+
+.mediaIcon {
+	border-top: 1px black solid;
+	padding-top: 10px;
+	margin: 10px;
+}
+
+.mediaIcon:hover {
+	border-top: 1px white solid;
+	margin: 10px;
+}
+
+@media (min-width: 576px) {
+	.addressBox {
+		line-height: 16px;
+		padding: 0px;
+		text-align: left;
+	}
+ }

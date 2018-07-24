@@ -1,0 +1,7 @@
+.Router {
+	position: relative;
+	background-color: black;
+	min-height: 90vh;
+	width: 100%;
+	display: inline-block;
+}
