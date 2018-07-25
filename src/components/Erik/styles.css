@@ -1,0 +1,30 @@
+#jumbo1 {
+	background-color: #e8e8e8;
+	color: black;
+}
+#jumbo2 {
+	background-color: #e8e8e8;
+	color: black;
+	text-align: left;
+}
+#jumbo3 {
+	background-color: #e8e8e8;
+	color: black;
+	text-align: right;
+}
+
+#bgimage {
+	width: 100vw;
+	background-color: black;
+}
+
+#bgimage .bgtext {
+	color: white;
+	position: absolute;
+	text-align: left;
+}
+
+#contentContainer{
+	margin-top: 25px;
+	background-color: black;
+}

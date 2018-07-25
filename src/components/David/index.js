@@ -7,7 +7,7 @@ import CarouselFrame from '../CarouselFrame';
 
 
 
-class Home extends Component {
+class David extends Component {
   render() {
 		return(
       <Container className="David">
@@ -39,4 +39,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default David;

@@ -5,6 +5,8 @@ import {
 } from 'react-router-dom';
 import Home from '../Home';
 import David from '../David';
+import Erik from '../Erik';
+import Samuel from '../Samuel';
 import NotFound from '../NotFound';
 import './styles.css';
 
@@ -16,6 +18,8 @@ class Router extends Component {
         <Switch>
           <Route exact path="/" component={Home}/>
 					<Route path="/david" component={David}/>
+					<Route path="/samuel" component={Samuel}/>
+					<Route path="/erik" component={Erik}/>
           <Route component={NotFound} />
         </Switch>
       </div>
