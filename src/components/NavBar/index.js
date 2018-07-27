@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavbarToggler, Collapse, NavbarBrand, NavLink } from 'reactstrap';
 import './styles.css';
-import Logo from '../../img/SamDavid6.png';
 
 class NavBar extends Component {
 	constructor(props){

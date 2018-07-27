@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles.css';
-import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 
 import CarouselFrame from '../CarouselFrame';

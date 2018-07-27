@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Row, Col, Container } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import './styles.css';
-
-import Logo from '../../img/SamDavid6.png';
 
 
 class Footer extends Component {

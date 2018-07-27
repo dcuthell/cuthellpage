@@ -5,9 +5,6 @@ import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 import davidProfile from '../../img/davidprofile.jpg';
 
 
-import CarouselFrame from '../CarouselFrame';
-
-
 
 class David extends Component {
   render() {
