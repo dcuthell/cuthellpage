@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './styles.css';
 import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
 
+import davidProfile from '../../img/davidprofile.jpg';
+
 
 import CarouselFrame from '../CarouselFrame';
 
@@ -12,14 +14,17 @@ class David extends Component {
 		return(
       <Container className="David">
 				<Row>
+					<Col lg="6">
+						<img src={davidProfile} alt="david profile"></img>
+					</Col>
 					<Col>
 						<Jumbotron>
 							<h1 className="display-3">David Cameron Cuthell III</h1>
 							<h1 className="display-4">Web and Mobile Developer</h1>
 							<hr className="my-2" />
-							<p>See GitHub Portfolio</p>
+							<p>Go to GitHub Portfolio</p>
 							<p className="lead">
-								<Button href={"https://github.com/dcuthell"} color="secondary">GitHub</Button>
+								<Button href={"https://github.com/dcuthell"} color="secondary">See Portfolio</Button>
 							</p>
 							<hr className="my-2" />
 							<p>Contact david@cuthell.com</p>
@@ -27,9 +32,9 @@ class David extends Component {
 								<Button href={"mailto:david@cuthell.com"} color="secondary">Send Email</Button>
 							</p>
 							<hr className="my-2" />
-							<p>Go to Facebook</p>
+							<p>Go to LinkedIn</p>
 							<p className="lead">
-								<Button href={"https://www.facebook.com/dcuthell"} color="secondary">Facebook</Button>
+								<Button href={"https://www.linkedin.com/in/davidcuthell/"} color="secondary">See Profile</Button>
 							</p>
 						</Jumbotron>
 					</Col>
