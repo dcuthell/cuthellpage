@@ -27,20 +27,20 @@ class NavBar extends Component {
     return (
 			<div className="NavBar sticky-top">
 				<Navbar expand="md" className={this.props.className}>
-	        <NavbarBrand href={"#"}>
+	        <NavbarBrand href={"/"}>
 						<h1>Cuthell.com</h1>
 	        </NavbarBrand>
 	        <NavbarToggler onClick={this.toggle}/>
 	        <Collapse isOpen={this.state.isOpen} navbar>
 	          <Nav className="ml-auto" navbar>
 							<NavItem>
-								<NavLink href={"#/David"} onClick={this.toggle2} className="menuItem">David</NavLink>
+								<NavLink href={"/David"} onClick={this.toggle2} className="menuItem">David</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Samuel"} onClick={this.toggle2} className="menuItem">Samuel</NavLink>
+								<NavLink href={"/Samuel"} onClick={this.toggle2} className="menuItem">Samuel</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink href={"#/Erik"} onClick={this.toggle2} className="menuItem">Erik</NavLink>
+								<NavLink href={"/Erik"} onClick={this.toggle2} className="menuItem">Erik</NavLink>
 							</NavItem>
 	          </Nav>
 	        </Collapse>
